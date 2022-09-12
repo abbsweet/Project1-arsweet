@@ -9,6 +9,7 @@ For this project, you will:
 * perform a calculation on the vector, 
 * and write a report about your project.
 
+<<<<<<< HEAD
 
 ## Requirements
 
@@ -68,6 +69,8 @@ How can you demonstrate in your code that your program successfully reads and st
 
 How can you demonstrate in your code that your calculation function works correctly?
 
+=======
+>>>>>>> 4fcc178 (Initial commit)
 ### Report 
 You must write a report about your project. Answer the following questions directly in this section of the README file:
 * What each of the 5+ attributes represent.
@@ -79,6 +82,7 @@ You must write a report about your project. Answer the following questions direc
 
 **Note: Any code that was not authored by yourself or the instructor must be cited in your report. This includes the use of concepts not taught in lecture.**
 
+<<<<<<< HEAD
 ## Submit
 
 You must include your source files, your data file(s), CMakeLists.txt, and your updated README.md file that contains your report to your repository. Submit to Gradescope using the GitHub repository link, double-check that all the correct files are there, and wait for the autograder to provide feedback.
@@ -98,3 +102,37 @@ The project is out of 60 points.
 | 5 pts | Data is stored in a vector of 1000+ objects. |
 | 5 pts | You test your code to demonstrate that everything works correctly. |
 | 10 pts | Report satisfies requirements, is easily readable, and is professional. |
+=======
+Project Report
+CS 124/Fall 2022
+Project 1
+Abby Sweet
+
+Data Set
+This Data set is from the town of Cambridge Massachusetts and is their 
+licensed dogs in 2021. I discovered this from the data set ideas, where 
+I found data sets from the town of Cambridge, then this data set.
+This data set had 6 attributes listed below:
+* Dog_Name - the name of the licensed dog
+* Dog_Breed - the breed of the licensed dog
+* Location_masked - the location both latitude and longitude together in one point 
+* Latitude_masked - the latitude of the location of the dog
+* Longitude_masked - the longitude of the location of the dog
+* Neighborhood - the neighborhood which the dog lives in
+
+The entries seem to ave no particular ordering or organization.
+
+I chose this data set because I like dogs and this seemed fun to 
+have my project on and about dogs.
+
+Correctness
+My code is correct and put into a vector because when proving the code 
+works by asking for the size of the vector in which all the dogs are listed.
+It works because there are 3,942 dogs the file says there is 3,943 rows but 
+that is counting the header of the file. 
+
+Calculation
+I chose to make a function that goes through the vector and compares the name 
+of the dogs against the name luna, and records the amount of Luna's in the file
+and prints the total Luna's at the end in the main function.
+>>>>>>> 4fcc178 (Initial commit)
