@@ -1,10 +1,4 @@
 #include <iostream>
-<<<<<<< HEAD
-using namespace std;
-
-int main() {
-    cout << "Hello, World!" << endl;
-=======
 #include <fstream>
 #include <vector>
 #include "cambridge.h"
@@ -22,6 +16,6 @@ int main() {
     //calculation
     cout << "This is the number of dogs with the name Luna:" << endl;
     cout << calc(cambridge) << endl;
->>>>>>> 4fcc178 (Initial commit)
+
     return 0;
 }
